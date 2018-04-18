@@ -4,6 +4,8 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { BarChartComponent } from './shared/bar-chart/bar-chart.component';
+import { ApiService } from './api-service';
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -12,9 +14,11 @@ import { BarChartComponent } from './shared/bar-chart/bar-chart.component';
     BarChartComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    HttpClientModule
+    
   ],
-  providers: [],
+  providers: [ApiService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
