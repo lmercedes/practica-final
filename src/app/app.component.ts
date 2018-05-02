@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ApiService } from './api-service';
+import { MatToolbar } from '@angular/material' ;
 
 
 @Component({
@@ -8,7 +9,7 @@ import { ApiService } from './api-service';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
-  title = 'app';
+  title = 'Práctica Final';
   private chartData;
 
   constructor(private _ApiService: ApiService){}
