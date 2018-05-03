@@ -16,7 +16,7 @@ export class ApiService {
 
   // Uses http.get() to load data from a single API endpoint
   getData() {
-    return this.http.get('http://localhost:3001/data');
+    return this.http.get('http://localhost:3002/data/Philippines/2016');
   }
 
 }

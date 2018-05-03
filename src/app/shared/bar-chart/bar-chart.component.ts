@@ -12,7 +12,7 @@ export class BarChartComponent implements OnInit, OnChanges{
 
   @ViewChild('chart') private chartContainer: ElementRef;
   @Input() private data: Array<any>;
-  private margin: any = { top: 20, bottom: 20, left: 20, right: 20};
+  private margin: any = { top: 20, bottom: 20, left: 40, right: 20};
   private chart: any;
   private width: number;
   private height: number;
@@ -51,8 +51,8 @@ export class BarChartComponent implements OnInit, OnChanges{
       .attr('transform', `translate(${this.margin.left}, ${this.margin.top})`);
 
     // define X & Y domains
-    const xDomain = this.data.map(d => d[0]);
-    const yDomain = [0, d3.max(this.data, d => d[1])];
+    const xDomain = this.data.map(d => d["activity"]);
+    const yDomain = [0, d3.max(this.data, d => d["cantidad_prestamos"])];
 
     // create scales
     this.xScale = d3.scaleBand().padding(0.1).domain(xDomain).rangeRound([0, this.width]);
@@ -74,8 +74,8 @@ export class BarChartComponent implements OnInit, OnChanges{
 
   updateChart() {
     // update scales & axis
-    this.xScale.domain(this.data.map(d => d[0]));
-    this.yScale.domain([0, d3.max(this.data, d => d[1])]);
+    this.xScale.domain(this.data.map(d => d["activity"]));
+    this.yScale.domain([0, d3.max(this.data, d => d["cantidad_prestamos"])]);
     this.colors.domain([0, this.data.length]);
     this.xAxis.transition().call(d3.axisBottom(this.xScale));
     this.yAxis.transition().call(d3.axisLeft(this.yScale));
@@ -88,10 +88,10 @@ export class BarChartComponent implements OnInit, OnChanges{
 
     // update existing bars
     this.chart.selectAll('.bar').transition()
-      .attr('x', d => this.xScale(d[0]))
-      .attr('y', d => this.yScale(d[1]))
+      .attr('x', d => this.xScale(d["activity"]))
+      .attr('y', d => this.yScale(d["cantidad_prestamos"]))
       .attr('width', d => this.xScale.bandwidth())
-      .attr('height', d => this.height - this.yScale(d[1]))
+      .attr('height', d => this.height - this.yScale(d["cantidad_prestamos"]))
       .style('fill', (d, i) => this.colors(i));
 
     // add new bars
@@ -99,15 +99,15 @@ export class BarChartComponent implements OnInit, OnChanges{
       .enter()
       .append('rect')
       .attr('class', 'bar')
-      .attr('x', d => this.xScale(d[0]))
+      .attr('x', d => this.xScale(d["activity"]))
       .attr('y', d => this.yScale(0))
       .attr('width', this.xScale.bandwidth())
       .attr('height', 0)
       .style('fill', (d, i) => this.colors(i))
       .transition()
       .delay((d, i) => i * 10)
-      .attr('y', d => this.yScale(d[1]))
-      .attr('height', d => this.height - this.yScale(d[1]));
+      .attr('y', d => this.yScale(d["cantidad_prestamos"]))
+      .attr('height', d => this.height - this.yScale(d["cantidad_prestamos"]));
   }
 
 }
