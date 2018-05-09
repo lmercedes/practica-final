@@ -1,0 +1,202 @@
+[
+    {
+        "country": "Philippines",
+        "ISO": "PHL",
+        "cantidad_prestamos": 3467
+    },
+    {
+        "country": "Armenia",
+        "ISO": "ARM",
+        "cantidad_prestamos": 1064
+    },
+    {
+        "country": "Colombia",
+        "ISO": "COL",
+        "cantidad_prestamos": 824
+    },
+    {
+        "country": "Mexico",
+        "ISO": "MEX",
+        "cantidad_prestamos": 716
+    },
+    {
+        "country": "Vietnam",
+        "ISO": "VNM",
+        "cantidad_prestamos": 687
+    },
+    {
+        "country": "Peru",
+        "ISO": "PER",
+        "cantidad_prestamos": 609
+    },
+    {
+        "country": "Kenya",
+        "ISO": "KEN",
+        "cantidad_prestamos": 593
+    },
+    {
+        "country": "Cambodia",
+        "ISO": "KHM",
+        "cantidad_prestamos": 567
+    },
+    {
+        "country": "El Salvador",
+        "ISO": "SLV",
+        "cantidad_prestamos": 496
+    },
+    {
+        "country": "Tajikistan",
+        "ISO": "TJK",
+        "cantidad_prestamos": 454
+    },
+    {
+        "country": "Lebanon",
+        "ISO": "LBN",
+        "cantidad_prestamos": 416
+    },
+    {
+        "country": "Kyrgyzstan",
+        "ISO": "KGZ",
+        "cantidad_prestamos": 412
+    },
+    {
+        "country": "Samoa",
+        "ISO": "WSM",
+        "cantidad_prestamos": 398
+    },
+    {
+        "country": "Lesotho",
+        "ISO": "LSO",
+        "cantidad_prestamos": 336
+    },
+    {
+        "country": "Uganda",
+        "ISO": "UGA",
+        "cantidad_prestamos": 304
+    },
+    {
+        "country": "Georgia",
+        "ISO": "GEO",
+        "cantidad_prestamos": 296
+    },
+    {
+        "country": "India",
+        "ISO": "IND",
+        "cantidad_prestamos": 296
+    },
+    {
+        "country": "Palestine",
+        "ISO": "PSE",
+        "cantidad_prestamos": 285
+    },
+    {
+        "country": "Mali",
+        "ISO": "MLI",
+        "cantidad_prestamos": 235
+    },
+    {
+        "country": "Pakistan",
+        "ISO": "PAK",
+        "cantidad_prestamos": 227
+    },
+    {
+        "country": "Ghana",
+        "ISO": "GHA",
+        "cantidad_prestamos": 210
+    },
+    {
+        "country": "Indonesia",
+        "ISO": "IDN",
+        "cantidad_prestamos": 196
+    },
+    {
+        "country": "Guatemala",
+        "ISO": "GTM",
+        "cantidad_prestamos": 186
+    },
+    {
+        "country": "Ecuador",
+        "ISO": "ECU",
+        "cantidad_prestamos": 173
+    },
+    {
+        "country": "Honduras",
+        "ISO": "HND",
+        "cantidad_prestamos": 166
+    },
+    {
+        "country": "Bolivia",
+        "ISO": "BOL",
+        "cantidad_prestamos": 164
+    },
+    {
+        "country": "Costa Rica",
+        "ISO": "CRI",
+        "cantidad_prestamos": 147
+    },
+    {
+        "country": "Paraguay",
+        "ISO": "PRY",
+        "cantidad_prestamos": 140
+    },
+    {
+        "country": "Zambia",
+        "ISO": "ZMB",
+        "cantidad_prestamos": 124
+    },
+    {
+        "country": "Haiti",
+        "ISO": "HTI",
+        "cantidad_prestamos": 122
+    },
+    {
+        "country": "Jordan",
+        "ISO": "JOR",
+        "cantidad_prestamos": 120
+    },
+    {
+        "country": "Cameroon",
+        "ISO": "CMR",
+        "cantidad_prestamos": 109
+    },
+    {
+        "country": "Rwanda",
+        "ISO": "RWA",
+        "cantidad_prestamos": 104
+    },
+    {
+        "country": "Nicaragua",
+        "ISO": "NIC",
+        "cantidad_prestamos": 101
+    },
+    {
+        "country": "Malawi",
+        "ISO": "MWI",
+        "cantidad_prestamos": 94
+    },
+    {
+        "country": "United States",
+        "ISO": "USA",
+        "cantidad_prestamos": 64
+    },
+    {
+        "country": "Sierra Leone",
+        "ISO": "SLE",
+        "cantidad_prestamos": 63
+    },
+    {
+        "country": "Ukraine",
+        "ISO": "UKR",
+        "cantidad_prestamos": 63
+    },
+    {
+        "country": "South Africa",
+        "ISO": "ZAF",
+        "cantidad_prestamos": 61
+    },
+    {
+        "country": "Mozambique",
+        "ISO": "MOZ",
+        "cantidad_prestamos": 57
+    }
+]

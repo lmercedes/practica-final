@@ -4,3 +4,7 @@ export interface Element {
     weight: number;
     symbol: string;
   }
+export interface Country {
+  name?: string;
+  code?: string;
+}

@@ -8,42 +8,67 @@
   </h1>
 </div>
 <div>
-  <h2>Gráfico - Petición a Backend:</h2>
-  <app-bar-chart *ngIf="chartData" [data]="chartData"></app-bar-chart>
-  <mat-card>
-    <mat-card-header>
-      <mat-card-title>Análisis de los datos</mat-card-title>
-      <mat-card-subtitle></mat-card-subtitle>
-    </mat-card-header>
-    <mat-card-content>
-      <div>
-        Escribir el análisis de los datos.
-    </div>
-    </mat-card-content>
-  </mat-card>
-  <mat-card>
-    <mat-card-header>
-      <mat-card-title>Justificación del Gráfico</mat-card-title>
-      <mat-card-subtitle></mat-card-subtitle>
-    </mat-card-header>
-    <mat-card-content>
-      <div>
-        Escribir el la justificcion del grafico utilizado.
-    </div>
-    </mat-card-content>
-  </mat-card>
-  <mat-card>
-    <mat-card-header>
-      <mat-card-title>Fuente de Datos</mat-card-title>
-    </mat-card-header>
-    <mat-card-content>
-      <div>
-        Indicar los datos utilizados.
-    </div>
-    </mat-card-content>
-  </mat-card>
-  <app-tabla-datos></app-tabla-datos>
+  <div style="text-align:center">
+    <h2>Gráfico - Cantidad de Préstamos po País y Actividad</h2>
+  </div>
+    <mat-form-field >
+    <mat-select placeholder="País" [(value)] = 'selectedCountry' (selectionChange)="getData($event)" >
+      <mat-option *ngFor="let country of countries" [value] = 'country.country' >
+        {{ country.country }}
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
+  <mat-form-field>
+    <mat-select placeholder="Actividad" [(value)] = 'selectedActivity' (selectionChange)="getData($event)">
+      <mat-option *ngFor="let activity of activities" [value] = 'activity' >
+        {{ activity }}
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
 </div>
-
-
-
+<div *ngIf = "selectedActivity && selectedCountry && isEmptyObject(chartData) == false" >
+  <h3 *ngIf = "isEmptyObject(chartData) == false">País : {{selectedCountry}} - Actividad: {{selectedActivity}}</h3>
+  <app-bar-chart *ngIf="isEmptyObject(chartData) == false && selectedActivity && selectedCountry" [data]="chartData" [countryName] = 'selectedCountry' [activity] = 'selectedActivity' ></app-bar-chart>
+ </div>
+ <div *ngIf = "isEmptyObject(chartData) == true">
+    No hay Información!
+</div>
+<div>
+    <mat-tab-group>
+        <mat-tab label="Análisis de los datos">
+            <mat-card>
+                <mat-card-header>
+                  <mat-card-subtitle></mat-card-subtitle>
+                </mat-card-header>
+                <mat-card-content>
+                  <div>
+                    Escribir el análisis de los datos.
+                </div>
+                </mat-card-content>
+              </mat-card>
+        </mat-tab>
+        <mat-tab label="Justificación del Gráfico">
+            <mat-card>
+                <mat-card-header>
+                  <mat-card-subtitle></mat-card-subtitle>
+                </mat-card-header>
+                <mat-card-content>
+                  <div>
+                    Escribir el la justificcion del grafico utilizado.
+                </div>
+                </mat-card-content>
+              </mat-card>
+        </mat-tab>
+        <mat-tab label="Fuente de Datos">
+            <mat-card>
+            <mat-card-header>
+            </mat-card-header>
+            <mat-card-content>
+              <div>
+                Indicar los datos utilizados.
+            </div>
+            </mat-card-content>
+          </mat-card>
+        </mat-tab>
+      </mat-tab-group>
+</div>

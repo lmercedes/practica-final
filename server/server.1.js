@@ -23,17 +23,48 @@ app.get('/data', (req, res) => {
   res.send(chartData)*/
 
 });
-app.get('/data/:country/:year', (req, res) => {
+app.get('/data/:country/:activity', (req, res) => {
 
   fs.readFile('datos/data.json','utf8' ,function(err, loans) {
     var countryName = req.params.country;
-    var year = req.params.year;
+    //var year = req.params.year;
+    var activity = req.params.activity;
 
     var d = JSON.parse(loans);
-    filteredData = filter.where(d, { country:countryName, disbursed_year: year});
+    //filteredData = filter.where(d, { country:countryName,activity: activity});
+    filteredData = filter.where(d, { country:countryName});
     res.send(filteredData)
   });
 });
+
+app.get('/prestamos/:country', (req, res) => {
+
+  fs.readFile('datos/datos_tema.json','utf8' ,function(err, loans) {
+    var countryName = req.params.country;
+
+    var d = JSON.parse(loans);
+    filteredData = filter.where(d, { country:countryName});
+    res.send(d)
+  });
+});
+
+
+app.get('/countries', (req, res) => {
+
+  fs.readFile('datos/countries.json','utf8' ,function(err, countries) {
+    var countriesData = JSON.parse(countries);
+    res.send(countriesData)
+  });
+});
+
+app.get('/activities', (req, res) => {
+
+  fs.readFile('datos/activities.json','utf8' ,function(err, activities) {
+    var activitiesData = JSON.parse(activities);
+    res.send(activitiesData)
+  });
+});
+
 
 app.get('/*', (req, res) => res.send('Hello World!'))
 

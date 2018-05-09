@@ -9,14 +9,29 @@ const httpOptions = {
 
 @Injectable()
 export class ApiService {
-
+  apiUrl: string = 'http://localhost:3002';
+  
   constructor(private http:HttpClient) { 
     
   }
 
-  // Uses http.get() to load data from a single API endpoint
-  getData() {
-    return this.http.get('http://localhost:3002/data/Philippines/2016');
+  getData(countryName, activity) {
+    let url = `${this.apiUrl}/data/${countryName}/${activity}`;
+    return this.http.get(url);
   }
 
+  getDataPrestamos(countryName) {
+    let url = `${this.apiUrl}/prestamos/${countryName}`;
+    return this.http.get(url);
+  }
+
+  getCountriesData() {
+    let url = `${this.apiUrl}/countries/`;
+    return this.http.get(url);
+  }
+
+  getActivitiesData(){
+    let url = `${this.apiUrl}/activities/`;
+    return this.http.get(url);
+  }
 }
