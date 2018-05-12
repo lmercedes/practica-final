@@ -39,7 +39,7 @@
           <app-line-chart [(selectedCountry)]='selectedCountry' *ngIf="isEmptyObject(loanCountryData) == false"  [(data)]='loanCountryData'></app-line-chart>
       </div>
     
-    <div *ngIf="isEmptyObject(loanCountryData) == true && !loading"> <h6>***Seleccione un País para ver los datos</h6></div>
+    <div *ngIf="!selectedCountry"> <h6>***Seleccione un País para ver los datos</h6></div>
   </div>
 </div>
 <div>

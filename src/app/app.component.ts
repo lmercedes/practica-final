@@ -18,7 +18,7 @@ export class AppComponent implements OnInit {
   private loanData;
   private loanCountryData
   private countries;
-  selectedCountry : string = '';
+  selectedCountry : string;
   loading = false;
 
   constructor(private _ApiService: ApiService){}
