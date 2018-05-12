@@ -27,22 +27,22 @@ Ejecutar `ng serve` /  `npm start` para subir el servidor de desarrollo. Navegar
 
 ## Aplicación
 
-## Grafico 1
+#### Gráfico 1
 ![Screenshot](screenshots/grafico_1.png)
 
-## Grafico 2
+### Gráfico 2
 ![Screenshot](screenshots/grafico_2.png)
 
-## Grafico 3
+### Gráfico 3
 ![Screenshot](screenshots/grafico_3.png)
 
-## Informe - Análisis de los Datos
+### Informe - Análisis de los Datos
 ![Screenshot](screenshots/informe_1.png)
 
-## Informe - Justificación de los gráficos
+### Informe - Justificación de los gráficos
 ![Screenshot](screenshots/informe_2.png)
 
-## Informe - Fuente de Datos
+### Informe - Fuente de Datos
 ![Screenshot](screenshots/informe_3.png)
 
 
