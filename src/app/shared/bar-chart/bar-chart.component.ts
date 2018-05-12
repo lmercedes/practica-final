@@ -33,6 +33,7 @@ export class BarChartComponent implements OnInit, OnChanges{
   constructor() { }
 
   ngOnInit() {
+    //toma los 10 primeros
     this.data = this.data.slice(0,10);
     this.createChart();
     if (this.data) {

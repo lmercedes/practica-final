@@ -1,9 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 import { ApiService } from './api-service';
-import { MatToolbar } from '@angular/material' ;
 import {FormControl, FormGroupDirective, NgForm, Validators, ReactiveFormsModule} from '@angular/forms';
 import {ErrorStateMatcher} from '@angular/material/core';
 import { Country } from './interfaces/interfaces' ; 
+
+import 'rxjs';
+
 
 @Component({
   selector: 'app-root',
@@ -13,31 +15,22 @@ import { Country } from './interfaces/interfaces' ;
 export class AppComponent implements OnInit {
   title = 'Práctica Final';
   private chartData;
+  private loanData;
+  private loanCountryData
   private countries;
   private activities;
-  selectedCountry : string = 'Colombia';
-  selectedActivity : string = 'Farming';
+  selectedCountry : string = '';
+  loading = false;
 
   constructor(private _ApiService: ApiService){}
 
 
   ngOnInit() {
-
-    // Local Data //////////////////////////////////////////////////////////////////////
-    //this.generateData();
-    // change the data periodically
-    //setInterval(() => this.generateData(), 3000);
-    // API Data ////////////////////////////////////////////////////////////////////////
-    //setInterval(() => this._ApiService.getData().subscribe(result => { this.chartData = result; }), 3000);
-    this.getData();
     this._ApiService.getCountriesData().subscribe(r => { this.countries = r; });
     this._ApiService.getActivitiesData().subscribe(r => { this.activities = r;});
+    this.getData();
+    this.getLoansByCountry();
   }
-
-  selected = new FormControl('valid', [
-    Validators.required,
-    Validators.pattern('valid'),
-  ]);
 
   generateData() {
     this.chartData = [];
@@ -51,14 +44,19 @@ export class AppComponent implements OnInit {
 
   
 getData() {
-  if(this.selectedCountry && this.selectedActivity) {
-  //this._ApiService.getData(this.selectedCountry, this.selectedActivity).subscribe(result => { this.chartData = result; });
-  this._ApiService.getDataPrestamos(this.selectedCountry).subscribe(result => { this.chartData = result; });
+  this._ApiService.getDataPrestamos().subscribe(result => { this.chartData = result; });
+  this._ApiService.getLoans().subscribe(result => { this.loanData = result } );
+}
+
+  
+  getLoansByCountry() {
+    if(this.selectedCountry)
+    {
+      this.loading = true;
+      this._ApiService.getLoansByCountry(this.selectedCountry).subscribe(result => { this.loanCountryData = result; this.loading = false;} );
+    }
   }
+  isEmptyObject(obj) {
+  return (obj && (Object.keys(obj).length === 0 && (Object.keys(obj).length > 1)) );
 }
-
-isEmptyObject(obj) {
-  return (obj && (Object.keys(obj).length === 0));
-}
-
 }

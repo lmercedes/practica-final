@@ -1,29 +1,41 @@
-# Dataviz3
+# Práctica Final Visualización Avanzada de Datos
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.4.
 
+## Instrucciones
+
+## API Server
+
+Se requiere NODE JS 
+El servidor se encuentra en la ruta ~/server/server.js
+
+Ejecutar  ` node server.js ` para subir el API REST. Este servidor está configurado para escuchar en el puerto 3002.
+
+## Dependencias en API SERVER
+
+Este servidor tiene las siguientes dependencias:
+
+express
+cors
+fs - Utilizado para leer los archivos JSON
+underscore - Utilizado para filtrar archivos JSON
+
+
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Ejecutar `ng serve` /  `npm start` para subir el servidor de desarrollo. Navegar a `http://localhost:4200/`. 
 
-## Code scaffolding
+##Aplicacióm
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+![Alt text](screenshots/grafico_1.png?raw=true "Gráfico #1:")
+![Screenshot](grafico_1.png)
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
 
-## Running unit tests
+## Ayuda
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Luego de ejecutar las instrucciones anteriores, usted debe ser la aplicación corriendo perfectamente.
 
-## Running end-to-end tests
+Por motivos de computadoras locales, puede verse en la necesidad de ejecutar nuevamente el package.json. Ejecutar `install package.json` en caso de que lo necesite.
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
-# practica3-2
-# practica-final

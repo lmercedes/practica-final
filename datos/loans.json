@@ -1,0 +1,152 @@
+[
+    {
+        "country": "Kenya",
+        "country_code": "KE",
+        "disbursed_year": "2013",
+        "cantidad_prestamos": 428
+    },
+    {
+        "country": "Cambodia",
+        "country_code": "KH",
+        "disbursed_year": "2013",
+        "cantidad_prestamos": 343
+    },
+    {
+        "country": "Peru",
+        "country_code": "PE",
+        "disbursed_year": "2013",
+        "cantidad_prestamos": 373
+    },
+    {
+        "country": "El Salvador",
+        "country_code": "SV",
+        "disbursed_year": "2013",
+        "cantidad_prestamos": 539
+    },
+    {
+        "country": "Philippines",
+        "country_code": "PH",
+        "disbursed_year": "2013",
+        "cantidad_prestamos": 739
+    },
+    {
+        "country": "Kenya",
+        "country_code": "KE",
+        "disbursed_year": "2014",
+        "cantidad_prestamos": 17611
+    },
+    {
+        "country": "Philippines",
+        "country_code": "PH",
+        "disbursed_year": "2014",
+        "cantidad_prestamos": 37778
+    },
+    {
+        "country": "Peru",
+        "country_code": "PE",
+        "disbursed_year": "2014",
+        "cantidad_prestamos": 7545
+    },
+    {
+        "country": "El Salvador",
+        "country_code": "SV",
+        "disbursed_year": "2014",
+        "cantidad_prestamos": 13044
+    },
+    {
+        "country": "Cambodia",
+        "country_code": "KH",
+        "disbursed_year": "2014",
+        "cantidad_prestamos": 6259
+    },
+    {
+        "country": "Peru",
+        "country_code": "PE",
+        "disbursed_year": "2015",
+        "cantidad_prestamos": 5644
+    },
+    {
+        "country": "Philippines",
+        "country_code": "PH",
+        "disbursed_year": "2015",
+        "cantidad_prestamos": 46021
+    },
+    {
+        "country": "Cambodia",
+        "country_code": "KH",
+        "disbursed_year": "2015",
+        "cantidad_prestamos": 7554
+    },
+    {
+        "country": "Kenya",
+        "country_code": "KE",
+        "disbursed_year": "2015",
+        "cantidad_prestamos": 23559
+    },
+    {
+        "country": "El Salvador",
+        "country_code": "SV",
+        "disbursed_year": "2015",
+        "cantidad_prestamos": 11952
+    },
+    {
+        "country": "Cambodia",
+        "country_code": "KH",
+        "disbursed_year": "2016",
+        "cantidad_prestamos": 11593
+    },
+    {
+        "country": "El Salvador",
+        "country_code": "SV",
+        "disbursed_year": "2016",
+        "cantidad_prestamos": 9302
+    },
+    {
+        "country": "Philippines",
+        "country_code": "PH",
+        "disbursed_year": "2016",
+        "cantidad_prestamos": 48262
+    },
+    {
+        "country": "Peru",
+        "country_code": "PE",
+        "disbursed_year": "2016",
+        "cantidad_prestamos": 6125
+    },
+    {
+        "country": "Kenya",
+        "country_code": "KE",
+        "disbursed_year": "2016",
+        "cantidad_prestamos": 20512
+    },
+    {
+        "country": "Cambodia",
+        "country_code": "KH",
+        "disbursed_year": "2017",
+        "cantidad_prestamos": 9087
+    },
+    {
+        "country": "Kenya",
+        "country_code": "KE",
+        "disbursed_year": "2017",
+        "cantidad_prestamos": 13334
+    },
+    {
+        "country": "Peru",
+        "country_code": "PE",
+        "disbursed_year": "2017",
+        "cantidad_prestamos": 2546
+    },
+    {
+        "country": "El Salvador",
+        "country_code": "SV",
+        "disbursed_year": "2017",
+        "cantidad_prestamos": 5038
+    },
+    {
+        "country": "Philippines",
+        "country_code": "PH",
+        "disbursed_year": "2017",
+        "cantidad_prestamos": 27641
+    }
+]

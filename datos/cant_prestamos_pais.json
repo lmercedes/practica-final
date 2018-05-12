@@ -1,0 +1,310 @@
+[
+    {
+        "country": "Philippines",
+        "cantidad_prestamos": 160441
+    },
+    {
+        "country": "Kenya",
+        "cantidad_prestamos": 75825
+    },
+    {
+        "country": "El Salvador",
+        "cantidad_prestamos": 39875
+    },
+    {
+        "country": "Cambodia",
+        "cantidad_prestamos": 34836
+    },
+    {
+        "country": "Pakistan",
+        "cantidad_prestamos": 26857
+    },
+    {
+        "country": "Peru",
+        "cantidad_prestamos": 22233
+    },
+    {
+        "country": "Colombia",
+        "cantidad_prestamos": 21995
+    },
+    {
+        "country": "Uganda",
+        "cantidad_prestamos": 20601
+    },
+    {
+        "country": "Tajikistan",
+        "cantidad_prestamos": 19580
+    },
+    {
+        "country": "Ecuador",
+        "cantidad_prestamos": 13521
+    },
+    {
+        "country": "Paraguay",
+        "cantidad_prestamos": 11903
+    },
+    {
+        "country": "Nicaragua",
+        "cantidad_prestamos": 11781
+    },
+    {
+        "country": "India",
+        "cantidad_prestamos": 11237
+    },
+    {
+        "country": "Vietnam",
+        "cantidad_prestamos": 10843
+    },
+    {
+        "country": "Nigeria",
+        "cantidad_prestamos": 10136
+    },
+    {
+        "country": "Bolivia",
+        "cantidad_prestamos": 8806
+    },
+    {
+        "country": "Lebanon",
+        "cantidad_prestamos": 8792
+    },
+    {
+        "country": "Armenia",
+        "cantidad_prestamos": 8631
+    },
+    {
+        "country": "Palestine",
+        "cantidad_prestamos": 8167
+    },
+    {
+        "country": "Samoa",
+        "cantidad_prestamos": 7396
+    },
+    {
+        "country": "Guatemala",
+        "cantidad_prestamos": 7310
+    },
+    {
+        "country": "Rwanda",
+        "cantidad_prestamos": 6735
+    },
+    {
+        "country": "Mali",
+        "cantidad_prestamos": 6639
+    },
+    {
+        "country": "Honduras",
+        "cantidad_prestamos": 6557
+    },
+    {
+        "country": "Indonesia",
+        "cantidad_prestamos": 6214
+    },
+    {
+        "country": "United States",
+        "cantidad_prestamos": 6093
+    },
+    {
+        "country": "Kyrgyzstan",
+        "cantidad_prestamos": 5774
+    },
+    {
+        "country": "Togo",
+        "cantidad_prestamos": 5749
+    },
+    {
+        "country": "Mexico",
+        "cantidad_prestamos": 5741
+    },
+    {
+        "country": "Sierra Leone",
+        "cantidad_prestamos": 5415
+    },
+    {
+        "country": "Tanzania",
+        "cantidad_prestamos": 5219
+    },
+    {
+        "country": "Ghana",
+        "cantidad_prestamos": 4374
+    },
+    {
+        "country": "Jordan",
+        "cantidad_prestamos": 4167
+    },
+    {
+        "country": "Zimbabwe",
+        "cantidad_prestamos": 4034
+    },
+    {
+        "country": "Madagascar",
+        "cantidad_prestamos": 3821
+    },
+    {
+        "country": "Liberia",
+        "cantidad_prestamos": 3682
+    },
+    {
+        "country": "Haiti",
+        "cantidad_prestamos": 3618
+    },
+    {
+        "country": "Mozambique",
+        "cantidad_prestamos": 3483
+    },
+    {
+        "country": "Senegal",
+        "cantidad_prestamos": 3269
+    },
+    {
+        "country": "The Democratic Republic of the Congo",
+        "cantidad_prestamos": 3073
+    },
+    {
+        "country": "Timor-Leste",
+        "cantidad_prestamos": 2690
+    },
+    {
+        "country": "Burkina Faso",
+        "cantidad_prestamos": 2460
+    },
+    {
+        "country": "Georgia",
+        "cantidad_prestamos": 2409
+    },
+    {
+        "country": "Yemen",
+        "cantidad_prestamos": 2313
+    },
+    {
+        "country": "Cameroon",
+        "cantidad_prestamos": 2230
+    },
+    {
+        "country": "Azerbaijan",
+        "cantidad_prestamos": 1945
+    },
+    {
+        "country": "Albania",
+        "cantidad_prestamos": 1934
+    },
+    {
+        "country": "Myanmar (Burma)",
+        "cantidad_prestamos": 1870
+    },
+    {
+        "country": "Turkey",
+        "cantidad_prestamos": 1703
+    },
+    {
+        "country": "Egypt",
+        "cantidad_prestamos": 1639
+    },
+    {
+        "country": "Costa Rica",
+        "cantidad_prestamos": 1561
+    },
+    {
+        "country":"Lao People's Democratic Republic",
+        "cantidad_prestamos": 1486
+    },
+    {
+        "country": "Kosovo",
+        "cantidad_prestamos": 1419
+    },
+    {
+        "country": "Malawi",
+        "cantidad_prestamos": 1320
+    },
+    {
+        "country": "Iraq",
+        "cantidad_prestamos": 993
+    },
+    {
+        "country": "Mongolia",
+        "cantidad_prestamos": 964
+    },
+    {
+        "country": "Ukraine",
+        "cantidad_prestamos": 963
+    },
+    {
+        "country": "Burundi",
+        "cantidad_prestamos": 880
+    },
+    {
+        "country": "Zambia",
+        "cantidad_prestamos": 784
+    },
+    {
+        "country": "Nepal",
+        "cantidad_prestamos": 717
+    },
+    {
+        "country": "Solomon Islands",
+        "cantidad_prestamos": 554
+    },
+    {
+        "country": "Benin",
+        "cantidad_prestamos": 497
+    },
+    {
+        "country": "Dominican Republic",
+        "cantidad_prestamos": 496
+    },
+    {
+        "country": "Lesotho",
+        "cantidad_prestamos": 422
+    },
+    {
+        "country": "South Africa",
+        "cantidad_prestamos": 378
+    },
+    {
+        "country": "Moldova",
+        "cantidad_prestamos": 348
+    },
+    {
+        "country": "Brazil",
+        "cantidad_prestamos": 284
+    },
+    {
+        "country": "Suriname",
+        "cantidad_prestamos": 223
+    },
+    {
+        "country": "Panama",
+        "cantidad_prestamos": 193
+    },
+    {
+        "country": "Israel",
+        "cantidad_prestamos": 190
+    },
+    {
+        "country": "Thailand",
+        "cantidad_prestamos": 180
+    },
+    {
+        "country": "South Sudan",
+        "cantidad_prestamos": 160
+    },
+    {
+        "country": "China",
+        "cantidad_prestamos": 134
+    },
+    {
+        "country": "Congo",
+        "cantidad_prestamos": 128
+    },
+    {
+        "country": "Belize",
+        "cantidad_prestamos": 125
+    },
+    {
+        "country": "Somalia",
+        "cantidad_prestamos": 75
+    },
+    {
+        "country": "Puerto Rico",
+        "cantidad_prestamos": 68
+    }
+]

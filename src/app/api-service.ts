@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders} from '@angular/common/http';
 
+
 import {Observable} from 'rxjs/Observable';
 
 const httpOptions = {
@@ -20,8 +21,9 @@ export class ApiService {
     return this.http.get(url);
   }
 
-  getDataPrestamos(countryName) {
-    let url = `${this.apiUrl}/prestamos/${countryName}`;
+  getDataPrestamos() {
+    //let url = `${this.apiUrl}/prestamos/${countryName}`;
+    let url = `${this.apiUrl}/prestamos/`;
     return this.http.get(url);
   }
 
@@ -34,4 +36,18 @@ export class ApiService {
     let url = `${this.apiUrl}/activities/`;
     return this.http.get(url);
   }
+
+  getLoans(): Observable<any> {
+    let url = `${this.apiUrl}/loans/`;
+    return this.http.get(url);
+  }
+
+  getLoansByCountry(countryName)
+  {
+    let url = `${this.apiUrl}/loansByCountries/${countryName}`;
+    return this.http.get(url);
+
+  }
+
+  
 }

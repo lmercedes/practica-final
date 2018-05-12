@@ -8,67 +8,132 @@
   </h1>
 </div>
 <div>
-  <div style="text-align:center">
-    <h2>Gráfico - Cantidad de Préstamos po País y Actividad</h2>
+  <div style="text-align:left">
+    <h2>Gráfico 1 - Préstamos por País - Top 10</h2>
+    <h6>***ver tooltip</h6>
+
   </div>
-    <mat-form-field >
-    <mat-select placeholder="País" [(value)] = 'selectedCountry' (selectionChange)="getData($event)" >
-      <mat-option *ngFor="let country of countries" [value] = 'country.country' >
-        {{ country.country }}
-      </mat-option>
-    </mat-select>
-  </mat-form-field>
-  <mat-form-field>
-    <mat-select placeholder="Actividad" [(value)] = 'selectedActivity' (selectionChange)="getData($event)">
-      <mat-option *ngFor="let activity of activities" [value] = 'activity' >
-        {{ activity }}
-      </mat-option>
-    </mat-select>
-  </mat-form-field>
-</div>
-<div *ngIf = "selectedActivity && selectedCountry && isEmptyObject(chartData) == false" >
-  <h3 *ngIf = "isEmptyObject(chartData) == false">País : {{selectedCountry}} - Actividad: {{selectedActivity}}</h3>
-  <app-bar-chart *ngIf="isEmptyObject(chartData) == false && selectedActivity && selectedCountry" [data]="chartData" [countryName] = 'selectedCountry' [activity] = 'selectedActivity' ></app-bar-chart>
- </div>
- <div *ngIf = "isEmptyObject(chartData) == true">
-    No hay Información!
+  <app-bar-chart *ngIf="isEmptyObject(chartData) == false" [data]="chartData"></app-bar-chart>
 </div>
 <div>
-    <mat-tab-group>
-        <mat-tab label="Análisis de los datos">
-            <mat-card>
-                <mat-card-header>
-                  <mat-card-subtitle></mat-card-subtitle>
-                </mat-card-header>
-                <mat-card-content>
-                  <div>
-                    Escribir el análisis de los datos.
-                </div>
-                </mat-card-content>
-              </mat-card>
-        </mat-tab>
-        <mat-tab label="Justificación del Gráfico">
-            <mat-card>
-                <mat-card-header>
-                  <mat-card-subtitle></mat-card-subtitle>
-                </mat-card-header>
-                <mat-card-content>
-                  <div>
-                    Escribir el la justificcion del grafico utilizado.
-                </div>
-                </mat-card-content>
-              </mat-card>
-        </mat-tab>
-        <mat-tab label="Fuente de Datos">
-            <mat-card>
-            <mat-card-header>
-            </mat-card-header>
-            <mat-card-content>
+  <div style="text-align:left">
+    <h2>Gráfico 2 - Países que generan mayor número de préstamos - Evolución en el tiempo</h2>
+  </div>
+  <app-line-chart *ngIf='loanData' [data]='loanData'></app-line-chart>
+</div>
+<div>
+  <div>
+    <div style="text-align:left">
+      <h2>Gráfico 4 - Evolución de préstamos por País</h2>
+    </div>
+    <mat-form-field>
+        <mat-select placeholder="País" [(value)]='selectedCountry' (selectionChange)="getLoansByCountry()">
+          <mat-option *ngFor="let country of countries" [value]='country.country'>
+            {{ country.country }}
+          </mat-option>
+        </mat-select>
+      </mat-form-field>
+      <div>
+      <mat-progress-bar mode="indeterminate" *ngIf="loading"></mat-progress-bar>
+      <div *ngIf="!loading">
+          <app-line-chart [(selectedCountry)]='selectedCountry' *ngIf="isEmptyObject(loanCountryData) == false"  [(data)]='loanCountryData'></app-line-chart>
+      </div>
+    
+    <div *ngIf="isEmptyObject(loanCountryData) == true && !loading"> <h6>***Seleccione un País para ver los datos</h6></div>
+  </div>
+</div>
+<div>
+  <mat-tab-group>
+    <mat-tab label="Análisis de los datos">
+      <mat-card>
+        <mat-card-header>
+          <mat-card-subtitle></mat-card-subtitle>
+        </mat-card-header>
+        <mat-card-content>
+          <div>
+            <p>
+              <strong>Kiva</strong> es una organización que permite prestar dinero a pequeñas empresas o emprendedores de países
+              en vías de desarrollo a través de Internet. Es una organización sin ánimo de lucro, establecida en
+              <strong>San Francisco</strong> y basada en los préstamos que realizan sus usuarios y en acuerdos con empresas e instituciones.
+            </p>
+            <p>
+              El análisis de los datos se ha realizado en
+              <strong>Pyhton 3</strong>, concretamente en una herramienta conocida como
+              <strong>Machine Learning Studio</strong> . En python está la lectura del data set y los diferentes métodos utilizados
+              para obtener los datos y poder mostrarlos en esta applicación.
+            </p>
+            <p>
+              Los préstamos
+              <strong>Kiva</strong> se realizan mundialmente, el análisis de los datos consiste en presentar los 10 país que han
+              tenido mas préstamos desde 2013 hasta 2017, que es la información que se encuentra en el dataset. Luego tomar
+              los 5 países con mayor número de préstamos y ver su evolución con los años
+            </p>
+            <p>Por último, se presenta un gráfico iteractivo para ver la evolución de los préstamos
+              <strong>Kiva</strong>
+              por país seleccionado. </p>
+          </div>
+        </mat-card-content>
+      </mat-card>
+    </mat-tab>
+    <mat-tab label="Justificación del Gráfico">
+      <mat-card>
+        <mat-card-header>
+          <mat-card-subtitle></mat-card-subtitle>
+        </mat-card-header>
+        <mat-card-content>
+          <div>
+            <span class="md-title">En esta applicación se muestran 2 tipos gráficos:</span>
+            <mat-list>
+                <mat-list-item>
+                  <span mat-line> <strong>Gráfico de Barras</strong> </span>
+                  <p mat-line>
+                    <span>Este gráfico lo escogí para visualizar cuales son los países que mayor número de préstamos se han otorgado. Aquí específicamente
+                        decidí realizar un top 10. Rápidamente podemos identificar que
+                        <strong>Philippines</strong> es el país donde más préstamos
+                        <strong>Kiva</strong> se ha otrogado.</span>
+                  </p>
+                </mat-list-item>
+                <mat-list-item>
+                  <span mat-line> <strong>Gráfico de Líneas</strong> </span>
+                  <p mat-line>
+                    <span>Este gráfico muestra la evolución de los préstamos por año de el Top 5 de los países con 
+                      más préstamos <strong>Kiva</strong>.
+                      Este tipo de gráfico es muy útil cuando se necesita representar fechas.</span>
+                  </p>
+                </mat-list-item>
+                <mat-list-item>
+                    <span mat-line> <strong>Gráfico Simple de Líneas</strong> </span>
+                    <p mat-line>
+                      <span>Para este gráfico lo que se desea es representar la evolución de los préstamos
+                        de un País seleccionado.
+                      </span>
+                    </p>
+                  </mat-list-item>
+              </mat-list>
+          </div>
+        </mat-card-content>
+      </mat-card>
+    </mat-tab>
+    <mat-tab label="Fuente de Datos">
+      <mat-card>
+        <mat-card-header>
+        </mat-card-header>
+        <mat-card-content>
+          <div>
               <div>
-                Indicar los datos utilizados.
+              <p>
+                Para este trabajo he seleccionado datos de <strong>Kiva Loans</strong> ubicado en la página web
+                <a  target="_blank" href='https://www.kaggle.com/kiva/data-science-for-good-kiva-crowdfunding/data'>Kaggle</a>
+                He seleccionado el dataset "kiva_loans.csv" para hacer el análisis de los datos. El cual contiene datos sobre
+                los préstamos otrogrados por país, genero, tipo de actividad, fecha, etc.
+              </p>
+              <p>
+                En esta applicación se han analizado datos genéricos como son la cantidad de préstamos por país y años.
+              </p>
             </div>
-            </mat-card-content>
-          </mat-card>
-        </mat-tab>
-      </mat-tab-group>
+          </div>
+        </mat-card-content>
+      </mat-card>
+    </mat-tab>
+  </mat-tab-group>
 </div>

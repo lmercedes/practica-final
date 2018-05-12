@@ -1,0 +1,1952 @@
+[
+    {
+        "country": "Palestine",
+        "country_code": "PS",
+        "disbursed_year": "2013",
+        "cantidad_prestamos": 130
+    },
+    {
+        "country": "Kenya",
+        "country_code": "KE",
+        "disbursed_year": "2013",
+        "cantidad_prestamos": 428
+    },
+    {
+        "country": "Pakistan",
+        "country_code": "PK",
+        "disbursed_year": "2013",
+        "cantidad_prestamos": 220
+    },
+    {
+        "country": "Turkey",
+        "country_code": "TR",
+        "disbursed_year": "2013",
+        "cantidad_prestamos": 15
+    },
+    {
+        "country": "Cambodia",
+        "country_code": "KH",
+        "disbursed_year": "2013",
+        "cantidad_prestamos": 343
+    },
+    {
+        "country": "Jordan",
+        "country_code": "JO",
+        "disbursed_year": "2013",
+        "cantidad_prestamos": 116
+    },
+    {
+        "country": "Cameroon",
+        "country_code": "CM",
+        "disbursed_year": "2013",
+        "cantidad_prestamos": 35
+    },
+    {
+        "country": "Timor-Leste",
+        "country_code": "TL",
+        "disbursed_year": "2013",
+        "cantidad_prestamos": 47
+    },
+    {
+        "country": "Iraq",
+        "country_code": "IQ",
+        "disbursed_year": "2013",
+        "cantidad_prestamos": 17
+    },
+    {
+        "country": "The Democratic Republic of the Congo",
+        "country_code": "CD",
+        "disbursed_year": "2013",
+        "cantidad_prestamos": 28
+    },
+    {
+        "country": "Paraguay",
+        "country_code": "PY",
+        "disbursed_year": "2013",
+        "cantidad_prestamos": 192
+    },
+    {
+        "country": "Colombia",
+        "country_code": "CO",
+        "disbursed_year": "2013",
+        "cantidad_prestamos": 188
+    },
+    {
+        "country": "Indonesia",
+        "country_code": "ID",
+        "disbursed_year": "2013",
+        "cantidad_prestamos": 28
+    },
+    {
+        "country": "Peru",
+        "country_code": "PE",
+        "disbursed_year": "2013",
+        "cantidad_prestamos": 373
+    },
+    {
+        "country": "Tanzania",
+        "country_code": "TZ",
+        "disbursed_year": "2013",
+        "cantidad_prestamos": 33
+    },
+    {
+        "country": "Sierra Leone",
+        "country_code": "SL",
+        "disbursed_year": "2013",
+        "cantidad_prestamos": 165
+    },
+    {
+        "country": "Senegal",
+        "country_code": "SN",
+        "disbursed_year": "2013",
+        "cantidad_prestamos": 56
+    },
+    {
+        "country": "El Salvador",
+        "country_code": "SV",
+        "disbursed_year": "2013",
+        "cantidad_prestamos": 539
+    },
+    {
+        "country": "Ghana",
+        "country_code": "GH",
+        "disbursed_year": "2013",
+        "cantidad_prestamos": 23
+    },
+    {
+        "country": "Samoa",
+        "country_code": "WS",
+        "disbursed_year": "2013",
+        "cantidad_prestamos": 122
+    },
+    {
+        "country": "Guatemala",
+        "country_code": "GT",
+        "disbursed_year": "2013",
+        "cantidad_prestamos": 17
+    },
+    {
+        "country": "Burundi",
+        "country_code": "BI",
+        "disbursed_year": "2013",
+        "cantidad_prestamos": 37
+    },
+    {
+        "country": "Ecuador",
+        "country_code": "EC",
+        "disbursed_year": "2013",
+        "cantidad_prestamos": 183
+    },
+    {
+        "country": "Rwanda",
+        "country_code": "RW",
+        "disbursed_year": "2013",
+        "cantidad_prestamos": 72
+    },
+    {
+        "country": "Honduras",
+        "country_code": "HN",
+        "disbursed_year": "2013",
+        "cantidad_prestamos": 52
+    },
+    {
+        "country": "Tajikistan",
+        "country_code": "TJ",
+        "disbursed_year": "2013",
+        "cantidad_prestamos": 129
+    },
+    {
+        "country": "Philippines",
+        "country_code": "PH",
+        "disbursed_year": "2013",
+        "cantidad_prestamos": 739
+    },
+    {
+        "country": "India",
+        "country_code": "IN",
+        "disbursed_year": "2013",
+        "cantidad_prestamos": 107
+    },
+    {
+        "country": "Haiti",
+        "country_code": "HT",
+        "disbursed_year": "2013",
+        "cantidad_prestamos": 15
+    },
+    {
+        "country": "Uganda",
+        "country_code": "UG",
+        "disbursed_year": "2013",
+        "cantidad_prestamos": 41
+    },
+    {
+        "country": "Georgia",
+        "country_code": "GE",
+        "disbursed_year": "2013",
+        "cantidad_prestamos": 87
+    },
+    {
+        "country": "Mali",
+        "country_code": "ML",
+        "disbursed_year": "2013",
+        "cantidad_prestamos": 92
+    },
+    {
+        "country": "Armenia",
+        "country_code": "AM",
+        "disbursed_year": "2013",
+        "cantidad_prestamos": 79
+    },
+    {
+        "country": "Liberia",
+        "country_code": "LR",
+        "disbursed_year": "2013",
+        "cantidad_prestamos": 208
+    },
+    {
+        "country": "Mongolia",
+        "country_code": "MN",
+        "disbursed_year": "2013",
+        "cantidad_prestamos": 61
+    },
+    {
+        "country": "Azerbaijan",
+        "country_code": "AZ",
+        "disbursed_year": "2013",
+        "cantidad_prestamos": 12
+    },
+    {
+        "country": "Yemen",
+        "country_code": "YE",
+        "disbursed_year": "2013",
+        "cantidad_prestamos": 66
+    },
+    {
+        "country": "Vietnam",
+        "country_code": "VN",
+        "disbursed_year": "2013",
+        "cantidad_prestamos": 102
+    },
+    {
+        "country": "Bolivia",
+        "country_code": "BO",
+        "disbursed_year": "2013",
+        "cantidad_prestamos": 119
+    },
+    {
+        "country": "United States",
+        "country_code": "US",
+        "disbursed_year": "2013",
+        "cantidad_prestamos": 34
+    },
+    {
+        "country": "Nicaragua",
+        "country_code": "NI",
+        "disbursed_year": "2013",
+        "cantidad_prestamos": 165
+    },
+    {
+        "country": "Kyrgyzstan",
+        "country_code": "KG",
+        "disbursed_year": "2013",
+        "cantidad_prestamos": 26
+    },
+    {
+        "country": "Ukraine",
+        "country_code": "UA",
+        "disbursed_year": "2013",
+        "cantidad_prestamos": 17
+    },
+    {
+        "country": "Kyrgyzstan",
+        "country_code": "KG",
+        "disbursed_year": "2014",
+        "cantidad_prestamos": 1642
+    },
+    {
+        "country": "Haiti",
+        "country_code": "HT",
+        "disbursed_year": "2014",
+        "cantidad_prestamos": 533
+    },
+    {
+        "country": "Liberia",
+        "country_code": "LR",
+        "disbursed_year": "2014",
+        "cantidad_prestamos": 1848
+    },
+    {
+        "country": "Nicaragua",
+        "country_code": "NI",
+        "disbursed_year": "2014",
+        "cantidad_prestamos": 4758
+    },
+    {
+        "country": "Rwanda",
+        "country_code": "RW",
+        "disbursed_year": "2014",
+        "cantidad_prestamos": 1866
+    },
+    {
+        "country": "Mexico",
+        "country_code": "MX",
+        "disbursed_year": "2014",
+        "cantidad_prestamos": 1038
+    },
+    {
+        "country": "Samoa",
+        "country_code": "WS",
+        "disbursed_year": "2014",
+        "cantidad_prestamos": 1927
+    },
+    {
+        "country": "Ghana",
+        "country_code": "GH",
+        "disbursed_year": "2014",
+        "cantidad_prestamos": 847
+    },
+    {
+        "country": "Kenya",
+        "country_code": "KE",
+        "disbursed_year": "2014",
+        "cantidad_prestamos": 17611
+    },
+    {
+        "country": "Senegal",
+        "country_code": "SN",
+        "disbursed_year": "2014",
+        "cantidad_prestamos": 1230
+    },
+    {
+        "country": "Kosovo",
+        "country_code": "XK",
+        "disbursed_year": "2014",
+        "cantidad_prestamos": 517
+    },
+    {
+        "country": "Guatemala",
+        "country_code": "GT",
+        "disbursed_year": "2014",
+        "cantidad_prestamos": 1609
+    },
+    {
+        "country": "Pakistan",
+        "country_code": "PK",
+        "disbursed_year": "2014",
+        "cantidad_prestamos": 5887
+    },
+    {
+        "country": "Honduras",
+        "country_code": "HN",
+        "disbursed_year": "2014",
+        "cantidad_prestamos": 2455
+    },
+    {
+        "country": "Philippines",
+        "country_code": "PH",
+        "disbursed_year": "2014",
+        "cantidad_prestamos": 37778
+    },
+    {
+        "country": "Nepal",
+        "country_code": "NP",
+        "disbursed_year": "2014",
+        "cantidad_prestamos": 97
+    },
+    {
+        "country": "Iraq",
+        "country_code": "IQ",
+        "disbursed_year": "2014",
+        "cantidad_prestamos": 962
+    },
+    {
+        "country": "Palestine",
+        "country_code": "PS",
+        "disbursed_year": "2014",
+        "cantidad_prestamos": 1510
+    },
+    {
+        "country":"Lao People's Democratic Republic",
+        "country_code": "LA",
+        "disbursed_year": "2014",
+        "cantidad_prestamos": 158
+    },
+    {
+        "country": "Paraguay",
+        "country_code": "PY",
+        "disbursed_year": "2014",
+        "cantidad_prestamos": 2742
+    },
+    {
+        "country": "Georgia",
+        "country_code": "GE",
+        "disbursed_year": "2014",
+        "cantidad_prestamos": 627
+    },
+    {
+        "country": "Israel",
+        "country_code": "IL",
+        "disbursed_year": "2014",
+        "cantidad_prestamos": 64
+    },
+    {
+        "country": "Indonesia",
+        "country_code": "ID",
+        "disbursed_year": "2014",
+        "cantidad_prestamos": 1370
+    },
+    {
+        "country": "Mozambique",
+        "country_code": "MZ",
+        "disbursed_year": "2014",
+        "cantidad_prestamos": 593
+    },
+    {
+        "country": "Nigeria",
+        "country_code": "NG",
+        "disbursed_year": "2014",
+        "cantidad_prestamos": 3017
+    },
+    {
+        "country": "Peru",
+        "country_code": "PE",
+        "disbursed_year": "2014",
+        "cantidad_prestamos": 7545
+    },
+    {
+        "country": "India",
+        "country_code": "IN",
+        "disbursed_year": "2014",
+        "cantidad_prestamos": 2743
+    },
+    {
+        "country": "Lebanon",
+        "country_code": "LB",
+        "disbursed_year": "2014",
+        "cantidad_prestamos": 1330
+    },
+    {
+        "country": "Mongolia",
+        "country_code": "MN",
+        "disbursed_year": "2014",
+        "cantidad_prestamos": 707
+    },
+    {
+        "country": "Jordan",
+        "country_code": "JO",
+        "disbursed_year": "2014",
+        "cantidad_prestamos": 1343
+    },
+    {
+        "country": "Myanmar (Burma)",
+        "country_code": "MM",
+        "disbursed_year": "2014",
+        "cantidad_prestamos": 77
+    },
+    {
+        "country": "Mali",
+        "country_code": "ML",
+        "disbursed_year": "2014",
+        "cantidad_prestamos": 2935
+    },
+    {
+        "country": "El Salvador",
+        "country_code": "SV",
+        "disbursed_year": "2014",
+        "cantidad_prestamos": 13044
+    },
+    {
+        "country": "Sierra Leone",
+        "country_code": "SL",
+        "disbursed_year": "2014",
+        "cantidad_prestamos": 2057
+    },
+    {
+        "country": "The Democratic Republic of the Congo",
+        "country_code": "CD",
+        "disbursed_year": "2014",
+        "cantidad_prestamos": 761
+    },
+    {
+        "country": "Timor-Leste",
+        "country_code": "TL",
+        "disbursed_year": "2014",
+        "cantidad_prestamos": 761
+    },
+    {
+        "country": "Cameroon",
+        "country_code": "CM",
+        "disbursed_year": "2014",
+        "cantidad_prestamos": 241
+    },
+    {
+        "country": "Togo",
+        "country_code": "TG",
+        "disbursed_year": "2014",
+        "cantidad_prestamos": 857
+    },
+    {
+        "country": "Cambodia",
+        "country_code": "KH",
+        "disbursed_year": "2014",
+        "cantidad_prestamos": 6259
+    },
+    {
+        "country": "Turkey",
+        "country_code": "TR",
+        "disbursed_year": "2014",
+        "cantidad_prestamos": 239
+    },
+    {
+        "country": "Burundi",
+        "country_code": "BI",
+        "disbursed_year": "2014",
+        "cantidad_prestamos": 372
+    },
+    {
+        "country": "Uganda",
+        "country_code": "UG",
+        "disbursed_year": "2014",
+        "cantidad_prestamos": 7390
+    },
+    {
+        "country": "Burkina Faso",
+        "country_code": "BF",
+        "disbursed_year": "2014",
+        "cantidad_prestamos": 407
+    },
+    {
+        "country": "Ukraine",
+        "country_code": "UA",
+        "disbursed_year": "2014",
+        "cantidad_prestamos": 366
+    },
+    {
+        "country": "Brazil",
+        "country_code": "BR",
+        "disbursed_year": "2014",
+        "cantidad_prestamos": 50
+    },
+    {
+        "country": "United States",
+        "country_code": "US",
+        "disbursed_year": "2014",
+        "cantidad_prestamos": 1009
+    },
+    {
+        "country": "Bolivia",
+        "country_code": "BO",
+        "disbursed_year": "2014",
+        "cantidad_prestamos": 2613
+    },
+    {
+        "country": "Benin",
+        "country_code": "BJ",
+        "disbursed_year": "2014",
+        "cantidad_prestamos": 496
+    },
+    {
+        "country": "Vietnam",
+        "country_code": "VN",
+        "disbursed_year": "2014",
+        "cantidad_prestamos": 2885
+    },
+    {
+        "country": "Belize",
+        "country_code": "BZ",
+        "disbursed_year": "2014",
+        "cantidad_prestamos": 102
+    },
+    {
+        "country": "Azerbaijan",
+        "country_code": "AZ",
+        "disbursed_year": "2014",
+        "cantidad_prestamos": 986
+    },
+    {
+        "country": "Yemen",
+        "country_code": "YE",
+        "disbursed_year": "2014",
+        "cantidad_prestamos": 1642
+    },
+    {
+        "country": "Zambia",
+        "country_code": "ZM",
+        "disbursed_year": "2014",
+        "cantidad_prestamos": 188
+    },
+    {
+        "country": "Armenia",
+        "country_code": "AM",
+        "disbursed_year": "2014",
+        "cantidad_prestamos": 1968
+    },
+    {
+        "country": "Zimbabwe",
+        "country_code": "ZW",
+        "disbursed_year": "2014",
+        "cantidad_prestamos": 2073
+    },
+    {
+        "country": "Albania",
+        "country_code": "AL",
+        "disbursed_year": "2014",
+        "cantidad_prestamos": 603
+    },
+    {
+        "country": "Thailand",
+        "country_code": "TH",
+        "disbursed_year": "2014",
+        "cantidad_prestamos": 24
+    },
+    {
+        "country": "Colombia",
+        "country_code": "CO",
+        "disbursed_year": "2014",
+        "cantidad_prestamos": 5334
+    },
+    {
+        "country": "Malawi",
+        "country_code": "MW",
+        "disbursed_year": "2014",
+        "cantidad_prestamos": 83
+    },
+    {
+        "country": "Somalia",
+        "country_code": "SO",
+        "disbursed_year": "2014",
+        "cantidad_prestamos": 29
+    },
+    {
+        "country": "Dominican Republic",
+        "country_code": "DO",
+        "disbursed_year": "2014",
+        "cantidad_prestamos": 150
+    },
+    {
+        "country": "Suriname",
+        "country_code": "SR",
+        "disbursed_year": "2014",
+        "cantidad_prestamos": 106
+    },
+    {
+        "country": "Ecuador",
+        "country_code": "EC",
+        "disbursed_year": "2014",
+        "cantidad_prestamos": 2953
+    },
+    {
+        "country": "Tajikistan",
+        "country_code": "TJ",
+        "disbursed_year": "2014",
+        "cantidad_prestamos": 4353
+    },
+    {
+        "country": "South Sudan",
+        "country_code": "SS",
+        "disbursed_year": "2014",
+        "cantidad_prestamos": 48
+    },
+    {
+        "country": "Egypt",
+        "country_code": "EG",
+        "disbursed_year": "2014",
+        "cantidad_prestamos": 46
+    },
+    {
+        "country": "Congo",
+        "country_code": "CG",
+        "disbursed_year": "2014",
+        "cantidad_prestamos": 97
+    },
+    {
+        "country": "South Africa",
+        "country_code": "ZA",
+        "disbursed_year": "2014",
+        "cantidad_prestamos": 52
+    },
+    {
+        "country": "Tanzania",
+        "country_code": "TZ",
+        "disbursed_year": "2014",
+        "cantidad_prestamos": 1292
+    },
+    {
+        "country": "Costa Rica",
+        "country_code": "CR",
+        "disbursed_year": "2014",
+        "cantidad_prestamos": 449
+    },
+    {
+        "country": "Mozambique",
+        "country_code": "MZ",
+        "disbursed_year": "2015",
+        "cantidad_prestamos": 997
+    },
+    {
+        "country": "Mongolia",
+        "country_code": "MN",
+        "disbursed_year": "2015",
+        "cantidad_prestamos": 196
+    },
+    {
+        "country": "Somalia",
+        "country_code": "SO",
+        "disbursed_year": "2015",
+        "cantidad_prestamos": 36
+    },
+    {
+        "country": "Saint Vincent and the Grenadines",
+        "country_code": "VC",
+        "disbursed_year": "2015",
+        "cantidad_prestamos": 14
+    },
+    {
+        "country": "Vietnam",
+        "country_code": "VN",
+        "disbursed_year": "2015",
+        "cantidad_prestamos": 2952
+    },
+    {
+        "country": "Myanmar (Burma)",
+        "country_code": "MM",
+        "disbursed_year": "2015",
+        "cantidad_prestamos": 163
+    },
+    {
+        "country": "Paraguay",
+        "country_code": "PY",
+        "disbursed_year": "2015",
+        "cantidad_prestamos": 3341
+    },
+    {
+        "country": "Moldova",
+        "country_code": "MD",
+        "disbursed_year": "2015",
+        "cantidad_prestamos": 66
+    },
+    {
+        "country": "Yemen",
+        "country_code": "YE",
+        "disbursed_year": "2015",
+        "cantidad_prestamos": 254
+    },
+    {
+        "country": "Mexico",
+        "country_code": "MX",
+        "disbursed_year": "2015",
+        "cantidad_prestamos": 1922
+    },
+    {
+        "country": "Sierra Leone",
+        "country_code": "SL",
+        "disbursed_year": "2015",
+        "cantidad_prestamos": 489
+    },
+    {
+        "country": "Zambia",
+        "country_code": "ZM",
+        "disbursed_year": "2015",
+        "cantidad_prestamos": 213
+    },
+    {
+        "country": "Samoa",
+        "country_code": "WS",
+        "disbursed_year": "2015",
+        "cantidad_prestamos": 1754
+    },
+    {
+        "country": "Malawi",
+        "country_code": "MW",
+        "disbursed_year": "2015",
+        "cantidad_prestamos": 354
+    },
+    {
+        "country": "Mali",
+        "country_code": "ML",
+        "disbursed_year": "2015",
+        "cantidad_prestamos": 1566
+    },
+    {
+        "country": "Zimbabwe",
+        "country_code": "ZW",
+        "disbursed_year": "2015",
+        "cantidad_prestamos": 600
+    },
+    {
+        "country": "Solomon Islands",
+        "country_code": "SB",
+        "disbursed_year": "2015",
+        "cantidad_prestamos": 116
+    },
+    {
+        "country": "Rwanda",
+        "country_code": "RW",
+        "disbursed_year": "2015",
+        "cantidad_prestamos": 1975
+    },
+    {
+        "country": "Nepal",
+        "country_code": "NP",
+        "disbursed_year": "2015",
+        "cantidad_prestamos": 209
+    },
+    {
+        "country": "South Africa",
+        "country_code": "ZA",
+        "disbursed_year": "2015",
+        "cantidad_prestamos": 192
+    },
+    {
+        "country": "Thailand",
+        "country_code": "TH",
+        "disbursed_year": "2015",
+        "cantidad_prestamos": 20
+    },
+    {
+        "country": "Panama",
+        "country_code": "PA",
+        "disbursed_year": "2015",
+        "cantidad_prestamos": 139
+    },
+    {
+        "country": "Tajikistan",
+        "country_code": "TJ",
+        "disbursed_year": "2015",
+        "cantidad_prestamos": 4536
+    },
+    {
+        "country": "The Democratic Republic of the Congo",
+        "country_code": "CD",
+        "disbursed_year": "2015",
+        "cantidad_prestamos": 821
+    },
+    {
+        "country": "Peru",
+        "country_code": "PE",
+        "disbursed_year": "2015",
+        "cantidad_prestamos": 5644
+    },
+    {
+        "country": "Palestine",
+        "country_code": "PS",
+        "disbursed_year": "2015",
+        "cantidad_prestamos": 2052
+    },
+    {
+        "country": "Senegal",
+        "country_code": "SN",
+        "disbursed_year": "2015",
+        "cantidad_prestamos": 823
+    },
+    {
+        "country": "Suriname",
+        "country_code": "SR",
+        "disbursed_year": "2015",
+        "cantidad_prestamos": 95
+    },
+    {
+        "country": "Togo",
+        "country_code": "TG",
+        "disbursed_year": "2015",
+        "cantidad_prestamos": 2088
+    },
+    {
+        "country": "Pakistan",
+        "country_code": "PK",
+        "disbursed_year": "2015",
+        "cantidad_prestamos": 6456
+    },
+    {
+        "country": "Turkey",
+        "country_code": "TR",
+        "disbursed_year": "2015",
+        "cantidad_prestamos": 532
+    },
+    {
+        "country": "Philippines",
+        "country_code": "PH",
+        "disbursed_year": "2015",
+        "cantidad_prestamos": 46021
+    },
+    {
+        "country": "Nigeria",
+        "country_code": "NG",
+        "disbursed_year": "2015",
+        "cantidad_prestamos": 2738
+    },
+    {
+        "country": "Puerto Rico",
+        "country_code": "PR",
+        "disbursed_year": "2015",
+        "cantidad_prestamos": 12
+    },
+    {
+        "country": "Nicaragua",
+        "country_code": "NI",
+        "disbursed_year": "2015",
+        "cantidad_prestamos": 2877
+    },
+    {
+        "country": "Uganda",
+        "country_code": "UG",
+        "disbursed_year": "2015",
+        "cantidad_prestamos": 6152
+    },
+    {
+        "country": "South Sudan",
+        "country_code": "SS",
+        "disbursed_year": "2015",
+        "cantidad_prestamos": 111
+    },
+    {
+        "country": "Ukraine",
+        "country_code": "UA",
+        "disbursed_year": "2015",
+        "cantidad_prestamos": 228
+    },
+    {
+        "country": "Tanzania",
+        "country_code": "TZ",
+        "disbursed_year": "2015",
+        "cantidad_prestamos": 1672
+    },
+    {
+        "country": "United States",
+        "country_code": "US",
+        "disbursed_year": "2015",
+        "cantidad_prestamos": 1207
+    },
+    {
+        "country": "Timor-Leste",
+        "country_code": "TL",
+        "disbursed_year": "2015",
+        "cantidad_prestamos": 1055
+    },
+    {
+        "country": "China",
+        "country_code": "CN",
+        "disbursed_year": "2015",
+        "cantidad_prestamos": 64
+    },
+    {
+        "country": "Cambodia",
+        "country_code": "KH",
+        "disbursed_year": "2015",
+        "cantidad_prestamos": 7554
+    },
+    {
+        "country": "Kyrgyzstan",
+        "country_code": "KG",
+        "disbursed_year": "2015",
+        "cantidad_prestamos": 2211
+    },
+    {
+        "country": "Azerbaijan",
+        "country_code": "AZ",
+        "disbursed_year": "2015",
+        "cantidad_prestamos": 659
+    },
+    {
+        "country": "Honduras",
+        "country_code": "HN",
+        "disbursed_year": "2015",
+        "cantidad_prestamos": 1455
+    },
+    {
+        "country": "Egypt",
+        "country_code": "EG",
+        "disbursed_year": "2015",
+        "cantidad_prestamos": 432
+    },
+    {
+        "country": "Kenya",
+        "country_code": "KE",
+        "disbursed_year": "2015",
+        "cantidad_prestamos": 23559
+    },
+    {
+        "country": "El Salvador",
+        "country_code": "SV",
+        "disbursed_year": "2015",
+        "cantidad_prestamos": 11952
+    },
+    {
+        "country": "Burundi",
+        "country_code": "BI",
+        "disbursed_year": "2015",
+        "cantidad_prestamos": 279
+    },
+    {
+        "country": "Jordan",
+        "country_code": "JO",
+        "disbursed_year": "2015",
+        "cantidad_prestamos": 1084
+    },
+    {
+        "country": "Georgia",
+        "country_code": "GE",
+        "disbursed_year": "2015",
+        "cantidad_prestamos": 1025
+    },
+    {
+        "country": "Israel",
+        "country_code": "IL",
+        "disbursed_year": "2015",
+        "cantidad_prestamos": 53
+    },
+    {
+        "country": "Ghana",
+        "country_code": "GH",
+        "disbursed_year": "2015",
+        "cantidad_prestamos": 1350
+    },
+    {
+        "country": "Iraq",
+        "country_code": "IQ",
+        "disbursed_year": "2015",
+        "cantidad_prestamos": 14
+    },
+    {
+        "country": "Bolivia",
+        "country_code": "BO",
+        "disbursed_year": "2015",
+        "cantidad_prestamos": 2956
+    },
+    {
+        "country": "Guatemala",
+        "country_code": "GT",
+        "disbursed_year": "2015",
+        "cantidad_prestamos": 2406
+    },
+    {
+        "country": "Burkina Faso",
+        "country_code": "BF",
+        "disbursed_year": "2015",
+        "cantidad_prestamos": 653
+    },
+    {
+        "country": "Indonesia",
+        "country_code": "ID",
+        "disbursed_year": "2015",
+        "cantidad_prestamos": 1627
+    },
+    {
+        "country": "Haiti",
+        "country_code": "HT",
+        "disbursed_year": "2015",
+        "cantidad_prestamos": 746
+    },
+    {
+        "country": "India",
+        "country_code": "IN",
+        "disbursed_year": "2015",
+        "cantidad_prestamos": 2729
+    },
+    {
+        "country": "Brazil",
+        "country_code": "BR",
+        "disbursed_year": "2015",
+        "cantidad_prestamos": 38
+    },
+    {
+        "country": "Ecuador",
+        "country_code": "EC",
+        "disbursed_year": "2015",
+        "cantidad_prestamos": 2776
+    },
+    {
+        "country":"Lao People's Democratic Republic",
+        "country_code": "LA",
+        "disbursed_year": "2015",
+        "cantidad_prestamos": 648
+    },
+    {
+        "country": "Kosovo",
+        "country_code": "XK",
+        "disbursed_year": "2015",
+        "cantidad_prestamos": 264
+    },
+    {
+        "country": "Congo",
+        "country_code": "CG",
+        "disbursed_year": "2015",
+        "cantidad_prestamos": 31
+    },
+    {
+        "country": "Liberia",
+        "country_code": "LR",
+        "disbursed_year": "2015",
+        "cantidad_prestamos": 34
+    },
+    {
+        "country": "Dominican Republic",
+        "country_code": "DO",
+        "disbursed_year": "2015",
+        "cantidad_prestamos": 136
+    },
+    {
+        "country": "Costa Rica",
+        "country_code": "CR",
+        "disbursed_year": "2015",
+        "cantidad_prestamos": 552
+    },
+    {
+        "country": "Lebanon",
+        "country_code": "LB",
+        "disbursed_year": "2015",
+        "cantidad_prestamos": 2661
+    },
+    {
+        "country": "Lesotho",
+        "country_code": "LS",
+        "disbursed_year": "2015",
+        "cantidad_prestamos": 32
+    },
+    {
+        "country": "Madagascar",
+        "country_code": "MG",
+        "disbursed_year": "2015",
+        "cantidad_prestamos": 1001
+    },
+    {
+        "country": "Cameroon",
+        "country_code": "CM",
+        "disbursed_year": "2015",
+        "cantidad_prestamos": 96
+    },
+    {
+        "country": "Armenia",
+        "country_code": "AM",
+        "disbursed_year": "2015",
+        "cantidad_prestamos": 2534
+    },
+    {
+        "country": "Colombia",
+        "country_code": "CO",
+        "disbursed_year": "2015",
+        "cantidad_prestamos": 6728
+    },
+    {
+        "country": "Albania",
+        "country_code": "AL",
+        "disbursed_year": "2015",
+        "cantidad_prestamos": 638
+    },
+    {
+        "country": "Colombia",
+        "country_code": "CO",
+        "disbursed_year": "2016",
+        "cantidad_prestamos": 7138
+    },
+    {
+        "country": "Burkina Faso",
+        "country_code": "BF",
+        "disbursed_year": "2016",
+        "cantidad_prestamos": 876
+    },
+    {
+        "country": "Tanzania",
+        "country_code": "TZ",
+        "disbursed_year": "2016",
+        "cantidad_prestamos": 1774
+    },
+    {
+        "country": "Uganda",
+        "country_code": "UG",
+        "disbursed_year": "2016",
+        "cantidad_prestamos": 4538
+    },
+    {
+        "country": "Guatemala",
+        "country_code": "GT",
+        "disbursed_year": "2016",
+        "cantidad_prestamos": 2221
+    },
+    {
+        "country": "Ghana",
+        "country_code": "GH",
+        "disbursed_year": "2016",
+        "cantidad_prestamos": 1433
+    },
+    {
+        "country": "The Democratic Republic of the Congo",
+        "country_code": "CD",
+        "disbursed_year": "2016",
+        "cantidad_prestamos": 880
+    },
+    {
+        "country": "Puerto Rico",
+        "country_code": "PR",
+        "disbursed_year": "2016",
+        "cantidad_prestamos": 29
+    },
+    {
+        "country": "China",
+        "country_code": "CN",
+        "disbursed_year": "2016",
+        "cantidad_prestamos": 51
+    },
+    {
+        "country": "Thailand",
+        "country_code": "TH",
+        "disbursed_year": "2016",
+        "cantidad_prestamos": 94
+    },
+    {
+        "country": "Haiti",
+        "country_code": "HT",
+        "disbursed_year": "2016",
+        "cantidad_prestamos": 1502
+    },
+    {
+        "country": "Rwanda",
+        "country_code": "RW",
+        "disbursed_year": "2016",
+        "cantidad_prestamos": 2143
+    },
+    {
+        "country": "Cameroon",
+        "country_code": "CM",
+        "disbursed_year": "2016",
+        "cantidad_prestamos": 797
+    },
+    {
+        "country": "Cambodia",
+        "country_code": "KH",
+        "disbursed_year": "2016",
+        "cantidad_prestamos": 11593
+    },
+    {
+        "country": "Samoa",
+        "country_code": "WS",
+        "disbursed_year": "2016",
+        "cantidad_prestamos": 2494
+    },
+    {
+        "country": "Dominican Republic",
+        "country_code": "DO",
+        "disbursed_year": "2016",
+        "cantidad_prestamos": 134
+    },
+    {
+        "country": "Timor-Leste",
+        "country_code": "TL",
+        "disbursed_year": "2016",
+        "cantidad_prestamos": 602
+    },
+    {
+        "country": "Ecuador",
+        "country_code": "EC",
+        "disbursed_year": "2016",
+        "cantidad_prestamos": 5086
+    },
+    {
+        "country": "Togo",
+        "country_code": "TG",
+        "disbursed_year": "2016",
+        "cantidad_prestamos": 1841
+    },
+    {
+        "country": "Solomon Islands",
+        "country_code": "SB",
+        "disbursed_year": "2016",
+        "cantidad_prestamos": 117
+    },
+    {
+        "country": "Egypt",
+        "country_code": "EG",
+        "disbursed_year": "2016",
+        "cantidad_prestamos": 640
+    },
+    {
+        "country": "Tajikistan",
+        "country_code": "TJ",
+        "disbursed_year": "2016",
+        "cantidad_prestamos": 6418
+    },
+    {
+        "country": "Sierra Leone",
+        "country_code": "SL",
+        "disbursed_year": "2016",
+        "cantidad_prestamos": 1374
+    },
+    {
+        "country": "Suriname",
+        "country_code": "SR",
+        "disbursed_year": "2016",
+        "cantidad_prestamos": 22
+    },
+    {
+        "country": "Costa Rica",
+        "country_code": "CR",
+        "disbursed_year": "2016",
+        "cantidad_prestamos": 334
+    },
+    {
+        "country": "El Salvador",
+        "country_code": "SV",
+        "disbursed_year": "2016",
+        "cantidad_prestamos": 9302
+    },
+    {
+        "country": "Senegal",
+        "country_code": "SN",
+        "disbursed_year": "2016",
+        "cantidad_prestamos": 543
+    },
+    {
+        "country": "Turkey",
+        "country_code": "TR",
+        "disbursed_year": "2016",
+        "cantidad_prestamos": 663
+    },
+    {
+        "country": "South Africa",
+        "country_code": "ZA",
+        "disbursed_year": "2016",
+        "cantidad_prestamos": 113
+    },
+    {
+        "country": "Georgia",
+        "country_code": "GE",
+        "disbursed_year": "2016",
+        "cantidad_prestamos": 550
+    },
+    {
+        "country": "Burundi",
+        "country_code": "BI",
+        "disbursed_year": "2016",
+        "cantidad_prestamos": 167
+    },
+    {
+        "country": "Philippines",
+        "country_code": "PH",
+        "disbursed_year": "2016",
+        "cantidad_prestamos": 48262
+    },
+    {
+        "country": "Malawi",
+        "country_code": "MW",
+        "disbursed_year": "2016",
+        "cantidad_prestamos": 533
+    },
+    {
+        "country": "Peru",
+        "country_code": "PE",
+        "disbursed_year": "2016",
+        "cantidad_prestamos": 6125
+    },
+    {
+        "country": "Azerbaijan",
+        "country_code": "AZ",
+        "disbursed_year": "2016",
+        "cantidad_prestamos": 288
+    },
+    {
+        "country": "Nicaragua",
+        "country_code": "NI",
+        "disbursed_year": "2016",
+        "cantidad_prestamos": 2442
+    },
+    {
+        "country": "Vietnam",
+        "country_code": "VN",
+        "disbursed_year": "2016",
+        "cantidad_prestamos": 3138
+    },
+    {
+        "country": "Kosovo",
+        "country_code": "XK",
+        "disbursed_year": "2016",
+        "cantidad_prestamos": 402
+    },
+    {
+        "country": "Brazil",
+        "country_code": "BR",
+        "disbursed_year": "2016",
+        "cantidad_prestamos": 110
+    },
+    {
+        "country": "Mexico",
+        "country_code": "MX",
+        "disbursed_year": "2016",
+        "cantidad_prestamos": 2147
+    },
+    {
+        "country": "Nepal",
+        "country_code": "NP",
+        "disbursed_year": "2016",
+        "cantidad_prestamos": 295
+    },
+    {
+        "country": "Kenya",
+        "country_code": "KE",
+        "disbursed_year": "2016",
+        "cantidad_prestamos": 20512
+    },
+    {
+        "country": "Kyrgyzstan",
+        "country_code": "KG",
+        "disbursed_year": "2016",
+        "cantidad_prestamos": 1381
+    },
+    {
+        "country": "Myanmar (Burma)",
+        "country_code": "MM",
+        "disbursed_year": "2016",
+        "cantidad_prestamos": 740
+    },
+    {
+        "country": "Armenia",
+        "country_code": "AM",
+        "disbursed_year": "2016",
+        "cantidad_prestamos": 2902
+    },
+    {
+        "country": "Yemen",
+        "country_code": "YE",
+        "disbursed_year": "2016",
+        "cantidad_prestamos": 179
+    },
+    {
+        "country": "Lesotho",
+        "country_code": "LS",
+        "disbursed_year": "2016",
+        "cantidad_prestamos": 227
+    },
+    {
+        "country": "Mozambique",
+        "country_code": "MZ",
+        "disbursed_year": "2016",
+        "cantidad_prestamos": 1224
+    },
+    {
+        "country":"Lao People's Democratic Republic",
+        "country_code": "LA",
+        "disbursed_year": "2016",
+        "cantidad_prestamos": 330
+    },
+    {
+        "country": "Moldova",
+        "country_code": "MD",
+        "disbursed_year": "2016",
+        "cantidad_prestamos": 183
+    },
+    {
+        "country": "Zambia",
+        "country_code": "ZM",
+        "disbursed_year": "2016",
+        "cantidad_prestamos": 218
+    },
+    {
+        "country": "Nigeria",
+        "country_code": "NG",
+        "disbursed_year": "2016",
+        "cantidad_prestamos": 3069
+    },
+    {
+        "country": "Belize",
+        "country_code": "BZ",
+        "disbursed_year": "2016",
+        "cantidad_prestamos": 23
+    },
+    {
+        "country": "Panama",
+        "country_code": "PA",
+        "disbursed_year": "2016",
+        "cantidad_prestamos": 48
+    },
+    {
+        "country": "Honduras",
+        "country_code": "HN",
+        "disbursed_year": "2016",
+        "cantidad_prestamos": 1706
+    },
+    {
+        "country": "Ukraine",
+        "country_code": "UA",
+        "disbursed_year": "2016",
+        "cantidad_prestamos": 236
+    },
+    {
+        "country": "India",
+        "country_code": "IN",
+        "disbursed_year": "2016",
+        "cantidad_prestamos": 3529
+    },
+    {
+        "country": "Madagascar",
+        "country_code": "MG",
+        "disbursed_year": "2016",
+        "cantidad_prestamos": 1865
+    },
+    {
+        "country": "Paraguay",
+        "country_code": "PY",
+        "disbursed_year": "2016",
+        "cantidad_prestamos": 3840
+    },
+    {
+        "country": "Indonesia",
+        "country_code": "ID",
+        "disbursed_year": "2016",
+        "cantidad_prestamos": 2442
+    },
+    {
+        "country": "Bolivia",
+        "country_code": "BO",
+        "disbursed_year": "2016",
+        "cantidad_prestamos": 2483
+    },
+    {
+        "country": "Jordan",
+        "country_code": "JO",
+        "disbursed_year": "2016",
+        "cantidad_prestamos": 1065
+    },
+    {
+        "country": "Lebanon",
+        "country_code": "LB",
+        "disbursed_year": "2016",
+        "cantidad_prestamos": 3138
+    },
+    {
+        "country": "Palestine",
+        "country_code": "PS",
+        "disbursed_year": "2016",
+        "cantidad_prestamos": 3080
+    },
+    {
+        "country": "Zimbabwe",
+        "country_code": "ZW",
+        "disbursed_year": "2016",
+        "cantidad_prestamos": 808
+    },
+    {
+        "country": "Israel",
+        "country_code": "IL",
+        "disbursed_year": "2016",
+        "cantidad_prestamos": 43
+    },
+    {
+        "country": "Mali",
+        "country_code": "ML",
+        "disbursed_year": "2016",
+        "cantidad_prestamos": 1597
+    },
+    {
+        "country": "Albania",
+        "country_code": "AL",
+        "disbursed_year": "2016",
+        "cantidad_prestamos": 475
+    },
+    {
+        "country": "Liberia",
+        "country_code": "LR",
+        "disbursed_year": "2016",
+        "cantidad_prestamos": 460
+    },
+    {
+        "country": "Pakistan",
+        "country_code": "PK",
+        "disbursed_year": "2016",
+        "cantidad_prestamos": 9056
+    },
+    {
+        "country": "United States",
+        "country_code": "US",
+        "disbursed_year": "2016",
+        "cantidad_prestamos": 1102
+    },
+    {
+        "country": "Cameroon",
+        "country_code": "CM",
+        "disbursed_year": "2017",
+        "cantidad_prestamos": 1061
+    },
+    {
+        "country": "Zambia",
+        "country_code": "ZM",
+        "disbursed_year": "2017",
+        "cantidad_prestamos": 165
+    },
+    {
+        "country": "Albania",
+        "country_code": "AL",
+        "disbursed_year": "2017",
+        "cantidad_prestamos": 215
+    },
+    {
+        "country": "The Democratic Republic of the Congo",
+        "country_code": "CD",
+        "disbursed_year": "2017",
+        "cantidad_prestamos": 583
+    },
+    {
+        "country": "Brazil",
+        "country_code": "BR",
+        "disbursed_year": "2017",
+        "cantidad_prestamos": 85
+    },
+    {
+        "country": "Yemen",
+        "country_code": "YE",
+        "disbursed_year": "2017",
+        "cantidad_prestamos": 172
+    },
+    {
+        "country": "Timor-Leste",
+        "country_code": "TL",
+        "disbursed_year": "2017",
+        "cantidad_prestamos": 225
+    },
+    {
+        "country": "Armenia",
+        "country_code": "AM",
+        "disbursed_year": "2017",
+        "cantidad_prestamos": 1148
+    },
+    {
+        "country": "Vietnam",
+        "country_code": "VN",
+        "disbursed_year": "2017",
+        "cantidad_prestamos": 1766
+    },
+    {
+        "country": "Burundi",
+        "country_code": "BI",
+        "disbursed_year": "2017",
+        "cantidad_prestamos": 25
+    },
+    {
+        "country": "United States",
+        "country_code": "US",
+        "disbursed_year": "2017",
+        "cantidad_prestamos": 746
+    },
+    {
+        "country": "Turkey",
+        "country_code": "TR",
+        "disbursed_year": "2017",
+        "cantidad_prestamos": 254
+    },
+    {
+        "country": "Burkina Faso",
+        "country_code": "BF",
+        "disbursed_year": "2017",
+        "cantidad_prestamos": 518
+    },
+    {
+        "country": "Bolivia",
+        "country_code": "BO",
+        "disbursed_year": "2017",
+        "cantidad_prestamos": 635
+    },
+    {
+        "country": "Ukraine",
+        "country_code": "UA",
+        "disbursed_year": "2017",
+        "cantidad_prestamos": 116
+    },
+    {
+        "country": "Uganda",
+        "country_code": "UG",
+        "disbursed_year": "2017",
+        "cantidad_prestamos": 2480
+    },
+    {
+        "country": "Cambodia",
+        "country_code": "KH",
+        "disbursed_year": "2017",
+        "cantidad_prestamos": 9087
+    },
+    {
+        "country": "Togo",
+        "country_code": "TG",
+        "disbursed_year": "2017",
+        "cantidad_prestamos": 963
+    },
+    {
+        "country": "Senegal",
+        "country_code": "SN",
+        "disbursed_year": "2017",
+        "cantidad_prestamos": 617
+    },
+    {
+        "country": "Indonesia",
+        "country_code": "ID",
+        "disbursed_year": "2017",
+        "cantidad_prestamos": 747
+    },
+    {
+        "country": "Palestine",
+        "country_code": "PS",
+        "disbursed_year": "2017",
+        "cantidad_prestamos": 1395
+    },
+    {
+        "country": "Israel",
+        "country_code": "IL",
+        "disbursed_year": "2017",
+        "cantidad_prestamos": 29
+    },
+    {
+        "country": "Pakistan",
+        "country_code": "PK",
+        "disbursed_year": "2017",
+        "cantidad_prestamos": 5238
+    },
+    {
+        "country": "Jordan",
+        "country_code": "JO",
+        "disbursed_year": "2017",
+        "cantidad_prestamos": 559
+    },
+    {
+        "country": "Nigeria",
+        "country_code": "NG",
+        "disbursed_year": "2017",
+        "cantidad_prestamos": 1312
+    },
+    {
+        "country": "Nicaragua",
+        "country_code": "NI",
+        "disbursed_year": "2017",
+        "cantidad_prestamos": 1539
+    },
+    {
+        "country": "Kenya",
+        "country_code": "KE",
+        "disbursed_year": "2017",
+        "cantidad_prestamos": 13334
+    },
+    {
+        "country": "Nepal",
+        "country_code": "NP",
+        "disbursed_year": "2017",
+        "cantidad_prestamos": 112
+    },
+    {
+        "country": "India",
+        "country_code": "IN",
+        "disbursed_year": "2017",
+        "cantidad_prestamos": 2129
+    },
+    {
+        "country": "Kosovo",
+        "country_code": "XK",
+        "disbursed_year": "2017",
+        "cantidad_prestamos": 234
+    },
+    {
+        "country": "Kyrgyzstan",
+        "country_code": "KG",
+        "disbursed_year": "2017",
+        "cantidad_prestamos": 514
+    },
+    {
+        "country": "Mozambique",
+        "country_code": "MZ",
+        "disbursed_year": "2017",
+        "cantidad_prestamos": 669
+    },
+    {
+        "country":"Lao People's Democratic Republic",
+        "country_code": "LA",
+        "disbursed_year": "2017",
+        "cantidad_prestamos": 350
+    },
+    {
+        "country": "Lebanon",
+        "country_code": "LB",
+        "disbursed_year": "2017",
+        "cantidad_prestamos": 1658
+    },
+    {
+        "country": "Moldova",
+        "country_code": "MD",
+        "disbursed_year": "2017",
+        "cantidad_prestamos": 95
+    },
+    {
+        "country": "Mexico",
+        "country_code": "MX",
+        "disbursed_year": "2017",
+        "cantidad_prestamos": 625
+    },
+    {
+        "country": "Lesotho",
+        "country_code": "LS",
+        "disbursed_year": "2017",
+        "cantidad_prestamos": 163
+    },
+    {
+        "country": "Liberia",
+        "country_code": "LR",
+        "disbursed_year": "2017",
+        "cantidad_prestamos": 1132
+    },
+    {
+        "country": "Mali",
+        "country_code": "ML",
+        "disbursed_year": "2017",
+        "cantidad_prestamos": 449
+    },
+    {
+        "country": "Malawi",
+        "country_code": "MW",
+        "disbursed_year": "2017",
+        "cantidad_prestamos": 350
+    },
+    {
+        "country": "Myanmar (Burma)",
+        "country_code": "MM",
+        "disbursed_year": "2017",
+        "cantidad_prestamos": 890
+    },
+    {
+        "country": "Paraguay",
+        "country_code": "PY",
+        "disbursed_year": "2017",
+        "cantidad_prestamos": 1788
+    },
+    {
+        "country": "Honduras",
+        "country_code": "HN",
+        "disbursed_year": "2017",
+        "cantidad_prestamos": 889
+    },
+    {
+        "country": "Peru",
+        "country_code": "PE",
+        "disbursed_year": "2017",
+        "cantidad_prestamos": 2546
+    },
+    {
+        "country": "Tanzania",
+        "country_code": "TZ",
+        "disbursed_year": "2017",
+        "cantidad_prestamos": 448
+    },
+    {
+        "country": "Colombia",
+        "country_code": "CO",
+        "disbursed_year": "2017",
+        "cantidad_prestamos": 2607
+    },
+    {
+        "country": "Tajikistan",
+        "country_code": "TJ",
+        "disbursed_year": "2017",
+        "cantidad_prestamos": 4144
+    },
+    {
+        "country": "Costa Rica",
+        "country_code": "CR",
+        "disbursed_year": "2017",
+        "cantidad_prestamos": 221
+    },
+    {
+        "country": "South Africa",
+        "country_code": "ZA",
+        "disbursed_year": "2017",
+        "cantidad_prestamos": 21
+    },
+    {
+        "country": "Dominican Republic",
+        "country_code": "DO",
+        "disbursed_year": "2017",
+        "cantidad_prestamos": 75
+    },
+    {
+        "country": "Ecuador",
+        "country_code": "EC",
+        "disbursed_year": "2017",
+        "cantidad_prestamos": 2523
+    },
+    {
+        "country": "Solomon Islands",
+        "country_code": "SB",
+        "disbursed_year": "2017",
+        "cantidad_prestamos": 317
+    },
+    {
+        "country": "Sierra Leone",
+        "country_code": "SL",
+        "disbursed_year": "2017",
+        "cantidad_prestamos": 1330
+    },
+    {
+        "country": "Egypt",
+        "country_code": "EG",
+        "disbursed_year": "2017",
+        "cantidad_prestamos": 521
+    },
+    {
+        "country": "Madagascar",
+        "country_code": "MG",
+        "disbursed_year": "2017",
+        "cantidad_prestamos": 955
+    },
+    {
+        "country": "El Salvador",
+        "country_code": "SV",
+        "disbursed_year": "2017",
+        "cantidad_prestamos": 5038
+    },
+    {
+        "country": "Samoa",
+        "country_code": "WS",
+        "disbursed_year": "2017",
+        "cantidad_prestamos": 1099
+    },
+    {
+        "country": "Georgia",
+        "country_code": "GE",
+        "disbursed_year": "2017",
+        "cantidad_prestamos": 120
+    },
+    {
+        "country": "Ghana",
+        "country_code": "GH",
+        "disbursed_year": "2017",
+        "cantidad_prestamos": 721
+    },
+    {
+        "country": "Rwanda",
+        "country_code": "RW",
+        "disbursed_year": "2017",
+        "cantidad_prestamos": 679
+    },
+    {
+        "country": "Guatemala",
+        "country_code": "GT",
+        "disbursed_year": "2017",
+        "cantidad_prestamos": 1057
+    },
+    {
+        "country": "Philippines",
+        "country_code": "PH",
+        "disbursed_year": "2017",
+        "cantidad_prestamos": 27641
+    },
+    {
+        "country": "Haiti",
+        "country_code": "HT",
+        "disbursed_year": "2017",
+        "cantidad_prestamos": 822
+    },
+    {
+        "country": "Thailand",
+        "country_code": "TH",
+        "disbursed_year": "2017",
+        "cantidad_prestamos": 42
+    },
+    {
+        "country": "Zimbabwe",
+        "country_code": "ZW",
+        "disbursed_year": "2017",
+        "cantidad_prestamos": 548
+    }
+]
