@@ -13,21 +13,12 @@ app.get('/data', (req, res) => {
 
     res.send(JSON.parse(data))
   });
-  /*const chartData = [];
-  for (let i = 0; i < (8 + Math.floor(Math.random() * 10)); i++) {
-    chartData.push([
-      `Index ${i}`,
-      Math.floor(Math.random() * 100)ß
-    ]);
-  }
-  res.send(chartData)*/
-
+ 
 });
 app.get('/data/:country/:activity', (req, res) => {
 
   fs.readFile('datos/data.json','utf8' ,function(err, loans) {
     var countryName = req.params.country;
-    //var year = req.params.year;
     var activity = req.params.activity;
 
     var d = JSON.parse(loans);
@@ -39,10 +30,8 @@ app.get('/data/:country/:activity', (req, res) => {
 app.get('/prestamos/', (req, res) => {
 
   fs.readFile('datos/cant_prestamos_pais.json','utf8' ,function(err, loans) {
-    //var countryName = req.params.country;
 
     var d = JSON.parse(loans);
-    //filteredData = filter.where(d, { country:countryName});
     res.send(d)
   });
 });
@@ -56,13 +45,6 @@ app.get('/countries', (req, res) => {
   });
 });
 
-app.get('/activities', (req, res) => {
-
-  fs.readFile('datos/activities.json','utf8' ,function(err, activities) {
-    var activitiesData = JSON.parse(activities);
-    res.send(activitiesData)
-  });
-});
 
 app.get('/loans', (req, res) => {
 
@@ -85,7 +67,7 @@ app.get('/loansByCountries/:country', (req, res) => {
 
 
 
-app.get('/*', (req, res) => res.send('Hello World!'))
+app.get('/*', (req, res) => res.send('API KIVA LOANS!'))
 
 
 app.listen(3002, () => console.log('Example app listening on port 3002!'))

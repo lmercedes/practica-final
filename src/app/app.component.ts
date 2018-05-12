@@ -18,7 +18,6 @@ export class AppComponent implements OnInit {
   private loanData;
   private loanCountryData
   private countries;
-  private activities;
   selectedCountry : string = '';
   loading = false;
 
@@ -27,7 +26,6 @@ export class AppComponent implements OnInit {
 
   ngOnInit() {
     this._ApiService.getCountriesData().subscribe(r => { this.countries = r; });
-    this._ApiService.getActivitiesData().subscribe(r => { this.activities = r;});
     this.getData();
     this.getLoansByCountry();
   }

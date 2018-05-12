@@ -22,7 +22,6 @@ export class ApiService {
   }
 
   getDataPrestamos() {
-    //let url = `${this.apiUrl}/prestamos/${countryName}`;
     let url = `${this.apiUrl}/prestamos/`;
     return this.http.get(url);
   }
@@ -32,10 +31,6 @@ export class ApiService {
     return this.http.get(url);
   }
 
-  getActivitiesData(){
-    let url = `${this.apiUrl}/activities/`;
-    return this.http.get(url);
-  }
 
   getLoans(): Observable<any> {
     let url = `${this.apiUrl}/loans/`;
