@@ -25,10 +25,10 @@ underscore - Utilizado para filtrar archivos JSON
 
 Ejecutar `ng serve` /  `npm start` para subir el servidor de desarrollo. Navegar a `http://localhost:4200/`. 
 
-##Aplicacióm
+## Aplicacióm
 
 ![Alt text](screenshots/grafico_1.png?raw=true "Gráfico #1:")
-![Screenshot](grafico_1.png)
+![Screenshot](screenshots/grafico_1.png)
 
 
 
